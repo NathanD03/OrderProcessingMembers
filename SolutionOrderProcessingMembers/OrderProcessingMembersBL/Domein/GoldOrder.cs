@@ -8,8 +8,9 @@ namespace OrderProcessingMembersBL.Domein
 {
     public class GoldOrder : Order
     {
-        public bool namePlate { get; set; }
-        public bool hasDiner { get; set; }
+        public bool namePlate { get; set; } = true;
+        public bool hasDiner { get; set; } = true;
+        public bool hasTaxi { get; set; } = true;
         public virtual string LeveringsType()
         {
             return "Express Delivery";

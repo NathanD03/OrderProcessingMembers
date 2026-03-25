@@ -10,6 +10,8 @@ namespace OrderProcessingMembersBL.Interfaces
     public interface ILidRepository
     {
         public void AddMember(Lid lid);
-        public bool Exists(Lid lid)
+        public bool Exists(Lid lid);
+
+        Lid GetLid (Lid lid);
     }
 }
