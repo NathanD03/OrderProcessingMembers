@@ -8,7 +8,7 @@ namespace OrderProcessingMembersBL.Domein
 {
     public class SilverOrder : Order
     {
-        public bool namePkate { get; set; }
+        public bool namePlate { get; set; } = true;
         public bool hasDiner { get; set; }
         public virtual string LeveringsType()
         {

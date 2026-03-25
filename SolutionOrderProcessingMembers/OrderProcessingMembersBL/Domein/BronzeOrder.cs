@@ -8,7 +8,7 @@ namespace OrderProcessingMembersBL.Domein
 {
     public class BronzeOrder : Order
     {
-        public bool namePlate { get; set; }
+        public bool namePlate { get; set; } = true;
         private double _kostBrons = 100;
 
         public override string LeveringsType()
