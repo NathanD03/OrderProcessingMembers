@@ -7,7 +7,7 @@ CREATE TABLE Leden (
     Status NVARCHAR(50) NOT NULL,
     NamePlate Bit NOT NULL,
     Diner Bit NOT NULL,
-    Taxi Bit NOT NULL          -
+    Taxi Bit NOT NULL          
 );
 
 -- 2. Tabel voor de Events

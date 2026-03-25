@@ -10,6 +10,11 @@ namespace OrderProcessingMembersBL.Domein
     {
         public bool namePlate { get; set; }
         private double _kostBrons = 100;
+
+        public override string LeveringsType()
+        {
+            return "Standard Delivery";
+        }
         public override double CalculateTotal()
         {
             return base.CalculateTotal() + _kostBrons;

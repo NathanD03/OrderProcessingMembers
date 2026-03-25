@@ -10,6 +10,10 @@ namespace OrderProcessingMembersBL.Domein
     {
         public bool namePlate { get; set; }
         public bool hasDiner { get; set; }
+        public virtual string LeveringsType()
+        {
+            return "Express Delivery";
+        }
         public override double CalculateTotal()
         {
             return base.CalculateTotal() * 3;

@@ -12,7 +12,10 @@ namespace OrderProcessingMembersBL.Domein
         public int Id { get; set; }
         public Lid Lid { get; set; }
         public Event Event { get; set; }
-        public string LeveringsType { get; set; }
+        public virtual string LeveringsType()
+        {
+            return "Standard Delivery";
+        }
         public virtual double CalculateTotal()
         {
             double totaal = Event.Price;

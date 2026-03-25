@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\bronzeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\bronzeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\goldorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\goldorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\silverorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\silverorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\goldorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\goldorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\interfaces\\iorderprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 227,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -57,14 +57,18 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "GoldOrder.cs",
               "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
               "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
               "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
               "RelativeToolTip": "OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T10:39:15.426Z",
               "EditorCaption": ""
@@ -77,7 +81,7 @@
               "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Domein\\SilverOrder.cs",
               "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\SilverOrder.cs",
               "RelativeToolTip": "OrderProcessingMembersBL\\Domein\\SilverOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T10:36:22.232Z",
               "EditorCaption": ""
@@ -96,13 +100,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "BronzeOrder.cs",
               "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\BronzeOrder.cs",
               "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Domein\\BronzeOrder.cs",
               "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\BronzeOrder.cs",
               "RelativeToolTip": "OrderProcessingMembersBL\\Domein\\BronzeOrder.cs",
-              "ViewState": "AgIAAAMAAABQZmZmZmYkwAwAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAABQZmZmZmYkwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T10:06:11.299Z",
               "EditorCaption": ""
@@ -145,13 +149,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Order.cs",
               "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Domein\\Order.cs",
               "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Order.cs",
               "RelativeToolTip": "OrderProcessingMembersBL\\Domein\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T09:21:20.48Z",
               "EditorCaption": ""
