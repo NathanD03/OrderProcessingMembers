@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "OrderProcessingMembersBL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/OrderProcessingMembersBL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OrderProcessingMembersBL.dll": {}
-        }
-      }
-    }
+    "net9.0-windows7.0": {}
   },
-  "libraries": {
-    "OrderProcessingMembersBL/1.0.0": {
-      "type": "project",
-      "path": "../OrderProcessingMembersBL/OrderProcessingMembersBL.csproj",
-      "msbuildProject": "../OrderProcessingMembersBL/OrderProcessingMembersBL.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "OrderProcessingMembersBL >= 1.0.0"
-    ]
+    "net9.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\natha\\.nuget\\packages\\": {},
@@ -48,20 +29,16 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net9.0"
+        "net9.0-windows"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "projectReferences": {
-            "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj": {
-              "projectPath": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj"
-            }
-          }
+        "net9.0-windows7.0": {
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -77,8 +54,8 @@
       "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net9.0-windows7.0": {
+        "targetAlias": "net9.0-windows",
         "imports": [
           "net461",
           "net462",
@@ -93,6 +70,9 @@
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
           }
         },
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json"
