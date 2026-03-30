@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "OrderProcessingMembersBL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/OrderProcessingMembersBL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OrderProcessingMembersBL.dll": {}
-        }
-      }
-    }
+    "net9.0": {}
   },
-  "libraries": {
-    "OrderProcessingMembersBL/1.0.0": {
-      "type": "project",
-      "path": "../OrderProcessingMembersBL/OrderProcessingMembersBL.csproj",
-      "msbuildProject": "../OrderProcessingMembersBL/OrderProcessingMembersBL.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "OrderProcessingMembersBL >= 1.0.0"
-    ]
+    "net9.0": []
   },
   "packageFolders": {
     "C:\\Users\\paeli\\.nuget\\packages\\": {},
@@ -60,8 +41,8 @@
           "framework": "net9.0",
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj": {
-              "projectPath": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj"
+            "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj": {
+              "projectPath": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj"
             }
           }
         }
