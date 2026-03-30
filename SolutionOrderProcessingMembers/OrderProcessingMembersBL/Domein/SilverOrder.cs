@@ -8,8 +8,10 @@ namespace OrderProcessingMembersBL.Domein
 {
     public class SilverOrder : Order
     {
-        public bool namePlate { get; set; } = true;
-        public bool hasDiner { get; set; }
+        public SilverOrder(int id, Lid lid, Event @event, int ticketAmount) : base(id, lid, @event, ticketAmount)
+        {
+        }
+
         public virtual string LeveringsType()
         {
             return "Express Delivery";
@@ -17,6 +19,16 @@ namespace OrderProcessingMembersBL.Domein
         public override double CalculateTotal()
         {
             return base.CalculateTotal() * 2;
+        }
+
+        public override List<string> GetServices()
+        {
+            var services = new List<string>();
+            services.Add("Nameplate");
+            services.Add("Welcomepackage");
+            services.Add("Diner");
+
+            return services;
         }
     }
 }

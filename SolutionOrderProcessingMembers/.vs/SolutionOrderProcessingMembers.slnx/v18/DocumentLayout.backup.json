@@ -1,42 +1,62 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\",
+  "WorkspaceRootPath": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\goldorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\goldorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E2BB4A25-4579-8FC5-9DAF-1368E5E699FF}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersdl\\memoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BB4A25-4579-8FC5-9DAF-1368E5E699FF}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|solutionrelative:orderprocessingmembersdl\\memoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\silverorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E2BB4A25-4579-8FC5-9DAF-1368E5E699FF}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersdl\\sqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E2BB4A25-4579-8FC5-9DAF-1368E5E699FF}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|solutionrelative:orderprocessingmembersdl\\sqlrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\silverorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\silverorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\bronzeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\bronzeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{57B4B062-13FE-4D8F-B6EE-934D63CF54A0}|OrderProcessingUtil\\OrderProcessingUtil.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingutil\\repositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{57B4B062-13FE-4D8F-B6EE-934D63CF54A0}|OrderProcessingUtil\\OrderProcessingUtil.csproj|solutionrelative:orderprocessingutil\\repositoryfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\lid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\lid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\interfaces\\iorderprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\interfaces\\iorderprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\beheerder\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\beheerder\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\beheerder\\ordermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\beheerder\\membermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\beheerder\\membermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\beheerder\\membermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\interfaces\\ilidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\interfaces\\ilidrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\goldorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\goldorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\natha\\documents\\school\\programmeren gevorderd\\orderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\bronzeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\bronzeorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\domein\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\domein\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E2BB4A25-4579-8FC5-9DAF-1368E5E699FF}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersdl\\orderprocessingmembersdl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E2BB4A25-4579-8FC5-9DAF-1368E5E699FF}|OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj|solutionrelative:orderprocessingmembersdl\\orderprocessingmembersdl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|c:\\users\\paeli\\documents\\2.hogent\\sem 2\\programmeren gevorderd\\solutionorderprocessingmembers\\solutionorderprocessingmembers\\orderprocessingmembersbl\\interfaces\\iorderprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5098235A-015F-4AE1-521A-DEBFF0DF7966}|OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj|solutionrelative:orderprocessingmembersbl\\interfaces\\iorderprice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +66,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 227,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +74,11 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Bookmark",
@@ -63,114 +87,196 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GoldOrder.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
-              "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
-              "RelativeToolTip": "OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Title": "MemoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersDL\\MemoryRepository.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersDL\\MemoryRepository.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersDL\\MemoryRepository.cs",
+              "RelativeToolTip": "OrderProcessingMembersDL\\MemoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T10:39:15.426Z",
+              "WhenOpened": "2026-03-24T11:36:47.83Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "SQLRepository.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersDL\\SQLRepository.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersDL\\SQLRepository.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersDL\\SQLRepository.cs",
+              "RelativeToolTip": "OrderProcessingMembersDL\\SQLRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAUwAoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T09:23:59.869Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "SilverOrder.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\SilverOrder.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\SilverOrder.cs",
               "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Domein\\SilverOrder.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\SilverOrder.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\SilverOrder.cs",
               "RelativeToolTip": "OrderProcessingMembersBL\\Domein\\SilverOrder.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T10:36:22.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "IOrderPrice.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Interfaces\\IOrderPrice.cs",
-              "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Interfaces\\IOrderPrice.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Interfaces\\IOrderPrice.cs",
-              "RelativeToolTip": "OrderProcessingMembersBL\\Interfaces\\IOrderPrice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "OrderProcessingMembersBL\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T10:23:10.713Z"
+              "WhenOpened": "2026-03-25T08:05:19.368Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "RepositoryFactory.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingUtil\\RepositoryFactory.cs",
+              "RelativeDocumentMoniker": "OrderProcessingUtil\\RepositoryFactory.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingUtil\\RepositoryFactory.cs",
+              "RelativeToolTip": "OrderProcessingUtil\\RepositoryFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T09:49:35.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Lid.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Lid.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Domein\\Lid.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Lid.cs",
+              "RelativeToolTip": "OrderProcessingMembersBL\\Domein\\Lid.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-24T11:37:21.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "OrderManager.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Beheerder\\OrderManager.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Beheerder\\OrderManager.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Beheerder\\OrderManager.cs",
+              "RelativeToolTip": "OrderProcessingMembersBL\\Beheerder\\OrderManager.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAkwBoAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T09:43:06.839Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MemberManager.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Beheerder\\MemberManager.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Beheerder\\MemberManager.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Beheerder\\MemberManager.cs",
+              "RelativeToolTip": "OrderProcessingMembersBL\\Beheerder\\MemberManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T09:32:28.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "BronzeOrder.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\BronzeOrder.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\BronzeOrder.cs",
               "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Domein\\BronzeOrder.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\BronzeOrder.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\BronzeOrder.cs",
               "RelativeToolTip": "OrderProcessingMembersBL\\Domein\\BronzeOrder.cs",
-              "ViewState": "AgIAAAMAAABQZmZmZmYkwAwAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAABQZmZmZmYkwA0AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T10:06:11.299Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderManager.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Beheerder\\OrderManager.cs",
-              "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Beheerder\\OrderManager.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Beheerder\\OrderManager.cs",
-              "RelativeToolTip": "OrderProcessingMembersBL\\Beheerder\\OrderManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T09:43:06.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MemberManager.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Beheerder\\MemberManager.cs",
-              "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Beheerder\\MemberManager.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Beheerder\\MemberManager.cs",
-              "RelativeToolTip": "OrderProcessingMembersBL\\Beheerder\\MemberManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T09:32:28.51Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ILidRepository.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Interfaces\\ILidRepository.cs",
-              "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Interfaces\\ILidRepository.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Interfaces\\ILidRepository.cs",
-              "RelativeToolTip": "OrderProcessingMembersBL\\Interfaces\\ILidRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T09:29:09.641Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 10,
               "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Order.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Order.cs",
               "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Domein\\Order.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Order.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Order.cs",
               "RelativeToolTip": "OrderProcessingMembersBL\\Domein\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwBEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-23T09:21:20.48Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "Event.cs",
-              "DocumentMoniker": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Event.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Event.cs",
               "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Domein\\Event.cs",
-              "ToolTip": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Event.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\Event.cs",
               "RelativeToolTip": "OrderProcessingMembersBL\\Domein\\Event.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-23T09:21:15.817Z"
+              "WhenOpened": "2026-03-23T09:21:15.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GoldOrder.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
+              "RelativeToolTip": "OrderProcessingMembersBL\\Domein\\GoldOrder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:39:15.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "OrderProcessingMembersDL",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj",
+              "RelativeDocumentMoniker": "OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj",
+              "RelativeToolTip": "OrderProcessingMembersDL\\OrderProcessingMembersDL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-25T08:06:55.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IOrderPrice.cs",
+              "DocumentMoniker": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Interfaces\\IOrderPrice.cs",
+              "RelativeDocumentMoniker": "OrderProcessingMembersBL\\Interfaces\\IOrderPrice.cs",
+              "ToolTip": "C:\\Users\\paeli\\Documents\\2.HOGENT\\SEM 2\\Programmeren Gevorderd\\SolutionOrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\Interfaces\\IOrderPrice.cs",
+              "RelativeToolTip": "OrderProcessingMembersBL\\Interfaces\\IOrderPrice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-23T10:23:10.713Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

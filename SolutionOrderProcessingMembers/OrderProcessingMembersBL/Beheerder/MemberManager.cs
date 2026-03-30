@@ -9,8 +9,8 @@ namespace OrderProcessingMembersBL.Beheerder
 {
     public class MemberManager
     {
-        private ILidRepository repo;
-        public MemberManager(ILidRepository repo)
+        private IRepository repo;
+        public MemberManager(IRepository repo)
         {
             this.repo = repo;
         }

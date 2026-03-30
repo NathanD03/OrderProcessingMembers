@@ -8,9 +8,10 @@ namespace OrderProcessingMembersBL.Domein
 {
     public class GoldOrder : Order
     {
-        public bool namePlate { get; set; } = true;
-        public bool hasDiner { get; set; } = true;
-        public bool hasTaxi { get; set; } = true;
+        public GoldOrder(int id, Lid lid, Event @event, int ticketAmount) : base(id, lid, @event, ticketAmount)
+        {
+        }
+
         public virtual string LeveringsType()
         {
             return "Express Delivery";
@@ -18,6 +19,16 @@ namespace OrderProcessingMembersBL.Domein
         public override double CalculateTotal()
         {
             return base.CalculateTotal() * 3;
+        }
+
+        public override List<string> GetServices()
+        {
+            var services = new List<string>();
+            services.Add("Nameplate");
+            services.Add("Welcomepackage");
+            services.Add("Taxi (Pickup)");
+            services.Add("Diner");
+            return services;
         }
     }
 }

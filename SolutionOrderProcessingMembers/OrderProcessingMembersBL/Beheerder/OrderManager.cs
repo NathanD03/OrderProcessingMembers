@@ -10,13 +10,25 @@ namespace OrderProcessingMembersBL.Beheerder
 {
     public class OrderManager
     {
-        private readonly IOrderPrice _orderCost;
+        private IRepository repository;
 
-        public OrderManager(IOrderPrice orderCost)
+        public OrderManager(IRepository repository)
         {
-            this._orderCost = orderCost;
+            this.repository = repository;
         }
 
-       
+        public void AddOrder(Lid lid, Event gekozenEvent, int aantalTickets)
+        {
+            repository.AddOrder(lid, gekozenEvent, aantalTickets);
+        }
+
+        public void ProcessOrders(List<Order> orders)
+        {
+             repository.ProcessOrders(orders);
+        }
+
+
+
+
     }
 }
