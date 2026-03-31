@@ -7,11 +7,14 @@ using System.Threading.Tasks;
 
 namespace OrderProcessingMembersBL.Interfaces
 {
-    public interface ILidRepository
+    public interface IRepository
     {
         public void AddMember(Lid lid);
         public bool Exists(Lid lid);
 
-        Lid GetLid (Lid lid);
+        Lid GetLid (int id);
+
+        public void AddOrder(Lid lid, Event gekozenEvent, int aantalTickets);
+        public void ProcessOrder(Order order);
     }
 }

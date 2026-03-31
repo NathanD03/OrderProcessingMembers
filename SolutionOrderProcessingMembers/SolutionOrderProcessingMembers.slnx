@@ -1,5 +1,5 @@
 <Solution>
   <Project Path="OrderProcessingMembersBL/OrderProcessingMembersBL.csproj" />
   <Project Path="OrderProcessingMembersDL/OrderProcessingMembersDL.csproj" />
-  <Project Path="OrderProcessingMembersUI/OrderProcessingMembersUI.csproj" Id="f37db5fa-00ee-4199-9580-fe6cbb623cc4" />
+  <Project Path="OrderProcessingMembersUI/OrderProcessingMembersUI.csproj" />
 </Solution>

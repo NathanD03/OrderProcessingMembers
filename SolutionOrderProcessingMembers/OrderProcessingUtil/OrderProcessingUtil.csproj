@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OrderProcessingMembersBL\OrderProcessingMembersBL.csproj" />
+    <ProjectReference Include="..\OrderProcessingMembersDL\OrderProcessingMembersDL.csproj" />
   </ItemGroup>
 
 </Project>

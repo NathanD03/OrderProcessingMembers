@@ -8,8 +8,11 @@ namespace OrderProcessingMembersBL.Domein
 {
     public class BronzeOrder : Order
     {
-        public bool namePlate { get; set; } = true;
         private double _kostBrons = 100;
+
+        public BronzeOrder(int id, Lid lid, Event @event, int ticketAmount) : base(id, lid, @event, ticketAmount)
+        {
+        }
 
         public override string LeveringsType()
         {
@@ -18,6 +21,13 @@ namespace OrderProcessingMembersBL.Domein
         public override double CalculateTotal()
         {
             return base.CalculateTotal() + _kostBrons;
+        }
+
+        public override List<string> GetServices()
+        {
+            var services = new List<string>();
+            services.Add("Nameplate");
+            return services;
         }
     }
 }
