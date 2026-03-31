@@ -1,4 +1,5 @@
 ﻿using OrderProcessingMembersBL.Domein;
+using OrderProcessingMembersBL.Factories;
 using OrderProcessingMembersBL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -10,12 +11,25 @@ namespace OrderProcessingMembersBL.Beheerder
 {
     public class OrderManager
     {
-        private readonly IOrderPrice _orderCost;
+        private readonly IOrderRepository _orderRepo;
 
-        public OrderManager(IOrderPrice orderCost)
+        public OrderManager(IOrderRepository orderRepo)
         {
-            this._orderCost = orderCost;
+            this._orderRepo = orderRepo;
         }
+
+
+        public void CreateOrder(Lid lid, Event @event)
+        {
+            IPriceCalculation priceCalc = PriceCalcFactory.GetMemberShipPrice(lid.Status) ;
+            IMembershipService memberService = MemberServiceFactory.GetMembershipServices(lid.Status);
+
+            Order newOrder = new Order(lid, @event, priceCalc, memberService);
+
+            _orderRepo.Save(newOrder);
+        }
+
+       
 
        
     }

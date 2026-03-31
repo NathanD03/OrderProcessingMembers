@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using OrderProcessingMembersBL.Interfaces;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -16,9 +17,11 @@ namespace OrderProcessingMembersUI
     /// </summary>
     public partial class MainWindow : Window
     {
+        private readonly ILidRepository _lidRepo;
         public MainWindow()
         {
             InitializeComponent();
+            repo = new MemoryLidRepository();
         }
 
         private void SubmitButton_Click(object sender, RoutedEventArgs e)

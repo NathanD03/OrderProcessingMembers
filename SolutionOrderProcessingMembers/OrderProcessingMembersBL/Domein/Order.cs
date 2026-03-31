@@ -12,14 +12,26 @@ namespace OrderProcessingMembersBL.Domein
         public int Id { get; set; }
         public Lid Lid { get; set; }
         public Event Event { get; set; }
-        public virtual string LeveringsType()
+        private readonly IPriceCalculation _priceCalculation;
+        private readonly IMembershipService _membershipService;
+
+        public Order(Lid lid, Event @event, IPriceCalculation priceCalculation, IMembershipService membershipService)
         {
-            return "Standard Delivery";
+            Lid=lid;
+            Event=@event;
+            _priceCalculation=priceCalculation;
+            _membershipService=membershipService;
         }
-        public virtual double CalculateTotal()
+
+        public double GetTotalCost()
         {
-            double totaal = Event.Price;
-            return totaal;
+            return _priceCalculation.CalculatePrice(Event.Price);
+        }
+
+        public void ProcessOrder()
+        {
+            _membershipService.DeliverExtras();
+            Console.WriteLine($"Ticket voor {Event.Name} verzonden");
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using OrderProcessingMembersBL.Interfaces;
+﻿using OrderProcessingMembersBL.Domein;
+using OrderProcessingMembersBL.Interfaces;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,10 +10,12 @@ namespace OrderProcessingMembersBL.Beheerder
 {
     public class MemberManager
     {
-        private ILidRepository repo;
-        public MemberManager(ILidRepository repo)
+        private IMemoryRepo _repo;
+        public MemberManager(IMemoryRepo repo)
         {
-            this.repo = repo;
+            this._repo = repo;
         }
+
+
     }
 }
