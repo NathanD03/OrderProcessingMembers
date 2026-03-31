@@ -1,36 +1,28 @@
 ﻿using OrderProcessingMembersBL.Domein;
-using OrderProcessingMembersBL.Factories;
 using OrderProcessingMembersBL.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OrderProcessingMembersBL.Beheerder
 {
     public class OrderManager
     {
-        private readonly IOrderRepository _orderRepo;
+        private readonly IRepository _repo;
 
-        public OrderManager(IOrderRepository orderRepo)
+        public OrderManager(IRepository repo)
         {
-            this._orderRepo = orderRepo;
+            this._repo = repo;
         }
 
-
-        public void CreateOrder(Lid lid, Event @event)
+        // De UI geeft nu een KANT-EN-KLAAR order door!
+        public void VoegOrderToe(Order nieuwOrder)
         {
-            IPriceCalculation priceCalc = PriceCalcFactory.GetMemberShipPrice(lid.Status) ;
-            IMembershipService memberService = MemberServiceFactory.GetMembershipServices(lid.Status);
-
-            Order newOrder = new Order(lid, @event, priceCalc, memberService);
-
-            _orderRepo.Save(newOrder);
+            // Je kan hier later nog checks doen (bijv. checken of het event niet vol zit)
+            _repo.Save(nieuwOrder);
         }
 
-       
-
-       
+        public List<Order> GetAllOrders()
+        {
+            return _repo.GetAllOrders();
+        }
     }
 }

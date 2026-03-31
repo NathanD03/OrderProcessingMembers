@@ -22,7 +22,7 @@ namespace OrderProcessingMembersDL
             throw new NotImplementedException();
         }
 
-        public void AddOrder(Lid lid, Event gekozenEvent, int aantalTickets)
+        public void Save(Order order)
         {
             throw new NotImplementedException();
         }
@@ -43,6 +43,26 @@ namespace OrderProcessingMembersDL
         }
 
         public void ProcessOrder(Order order)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Lid> GetAllMembers()
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Order> GetAllOrders()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Lid GetLidById(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Lid GetLidByName(string name)
         {
             throw new NotImplementedException();
         }
