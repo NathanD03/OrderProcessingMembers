@@ -36,5 +36,15 @@ namespace OrderProcessingMembersDL
         {
             throw new NotImplementedException();
         }
+
+        public Lid GetLid(int id)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void ProcessOrder(Order order)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

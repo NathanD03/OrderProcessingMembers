@@ -1,9 +1,5 @@
 ﻿using OrderProcessingMembersBL.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OrderProcessingMembersBL.Domein
 {
@@ -12,26 +8,37 @@ namespace OrderProcessingMembersBL.Domein
         public int Id { get; set; }
         public Lid Lid { get; set; }
         public Event Event { get; set; }
-        private readonly IPriceCalculation _priceCalculation;
-        private readonly IMembershipService _membershipService;
+        public int TicketAmount { get; set; }
 
-        public Order(Lid lid, Event @event, IPriceCalculation priceCalculation, IMembershipService membershipService)
+       
+        public IPriceCalculator PriceCalculator { get; set; }
+        public IDeliveryMethod DeliveryMethod { get; set; }
+        public IExtraServices ExtraServices { get; set; }
+
+        public Order(int id, Lid lid, Event @event, int ticketAmount,
+                     IPriceCalculator priceCalculator,
+                     IDeliveryMethod deliveryMethod,
+                     IExtraServices extraServices)
         {
-            Lid=lid;
-            Event=@event;
-            _priceCalculation=priceCalculation;
-            _membershipService=membershipService;
+            Id = id;
+            Lid = lid;
+            Event = @event;
+            TicketAmount = ticketAmount;
+
+            // Interfaces koppelen
+            PriceCalculator = priceCalculator;
+            DeliveryMethod = deliveryMethod;
+            ExtraServices = extraServices;
         }
 
-        public double GetTotalCost()
+        public double CalculateTotal()
         {
-            return _priceCalculation.CalculatePrice(Event.Price);
-        }
+            // Basis berekening uitvoeren
+            double basePrice = Event.Price * TicketAmount;
 
-        public void ProcessOrder()
-        {
-            _membershipService.DeliverExtras();
-            Console.WriteLine($"Ticket voor {Event.Name} verzonden");
+            double totalPrice = PriceCalculator.CalculateTotal(basePrice);
+
+            return totalPrice;
         }
     }
 }
