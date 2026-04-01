@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace OrderProcessingMembersBL.Domein.Strategies
 {
-    // --- PRICING ---
+    // Price
     public class StandardPriceCalculator : IPriceCalculator
     {
         public double CalculateTotal(double basePrice)
@@ -36,7 +36,7 @@ namespace OrderProcessingMembersBL.Domein.Strategies
         }
     }
 
-    // --- DELIVERY ---
+    // delivery
     public class StandardDelivery : IDeliveryMethod
     {
         public string GetDeliveryType()
@@ -50,11 +50,11 @@ namespace OrderProcessingMembersBL.Domein.Strategies
         public string GetDeliveryType()
         {
            
-            return "Express delivery (including welcome package)";
+            return "Express delivery";
         }
     }
 
-    // --- SERVICES ---
+    // Services
     public class StandardServices : IExtraServices
     {
         public List<string> GetServices()

@@ -25,6 +25,7 @@ namespace OrderProcessingMembersBL.Domein
         public string Email { get; set; }
         public string Adress { get; set; }
         public string Status { get; set; }
+        public bool IsAdmin { get; set; } = false; 
 
 
     }

@@ -78,9 +78,11 @@ namespace OrderProcessingMembersUI
             Lid lid5 = new Lid(5, "Jos", "Smet", "joske@gmail.com", "Vliegtuiglaan 5, 9000 Gent", "Standard");
 
             Lid lid6 = new Lid(6, "Pieter", "Claes", "pieter.claes@hotmail.com", "Dorpstraat 12, 9000 Gent", "Bronze");
+            
+            Lid adminPetra = new Lid(5, "Petra", "Lut", "petra.lut@gmail.com", "Gent", "Standard");
+            adminPetra.IsAdmin = true; 
+            _memberManager.AddMember(adminPetra);
 
-
-            // Leden opslaan via de Manager! (Belangrijk: we gebruiken de repository niet rechtstreeks)
             _memberManager.AddMember(lid1);
             _memberManager.AddMember(lid2);
             _memberManager.AddMember(lid3);
@@ -97,13 +99,28 @@ namespace OrderProcessingMembersUI
 
             // Zoek het lid op via de manager
             Lid ingelogdLid = _memberManager.GetLidByName(ingevuldeNaam);
+            bool isAdminAangevinkt = IsAdminCheckBox.IsChecked == true;
 
             if (ingelogdLid != null)
             {
-
+                if (isAdminAangevinkt)
+                {
+                    // Beveiliging: is dit wel écht een admin?
+                    if (ingelogdLid.IsAdmin)
+                    {
+                        // Open het Admin scherm!
+                        OrderProcessingWindow adminWindow = new OrderProcessingWindow(_orderManager);
+                        adminWindow.Show();
+                        this.Close();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Toegang geweigerd. Deze gebruiker heeft geen admin rechten.");
+                    }
+                }
                 OrderTicketsWindow orderWindow = new OrderTicketsWindow(ingelogdLid, _orderManager, _beschikbareEvents);
                 orderWindow.Show();
-                Close(); 
+                Close();
 
 
             }

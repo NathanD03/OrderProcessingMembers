@@ -16,7 +16,7 @@
             <RowDefinition Height="*"/>
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
-        <Button Grid.Row="0" Grid.Column="0" Content="Process Orders" Margin="5"/>
+        <Button Grid.Row="0" Grid.Column="0" Content="Process Orders" Margin="5" Click="ProcessOrdersButton_Click"/>
 
         <ListBox Grid.Row="1" Grid.Column="0" Name="OrdersListBox" Margin="5" />
         <ListBox Grid.Row="2" Grid.Column="0" Name="ServicesListBox" Margin="5" />
