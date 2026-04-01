@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace OrderProcessingMembersBL.Interfaces
 {
-    public interface IOrderPrice
+    public interface IDeliveryMethod
     {
-        double BronzeCost(double cost);
-        double SilverCost(double cost);
-        double GoldCost(double cost);
+        string GetDeliveryType();
     }
 }

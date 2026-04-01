@@ -1,34 +1,28 @@
 ﻿using OrderProcessingMembersBL.Domein;
 using OrderProcessingMembersBL.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OrderProcessingMembersBL.Beheerder
 {
     public class OrderManager
     {
-        private IRepository repository;
+        private readonly IRepository _repo;
 
-        public OrderManager(IRepository repository)
+        public OrderManager(IRepository repo)
         {
-            this.repository = repository;
+            this._repo = repo;
         }
 
-        public void AddOrder(Lid lid, Event gekozenEvent, int aantalTickets)
+        // De UI geeft nu een KANT-EN-KLAAR order door!
+        public void VoegOrderToe(Order nieuwOrder)
         {
-            repository.AddOrder(lid, gekozenEvent, aantalTickets);
+            // Je kan hier later nog checks doen (bijv. checken of het event niet vol zit)
+            _repo.Save(nieuwOrder);
         }
 
-        public void ProcessOrders(List<Order> orders)
+        public List<Order> GetAllOrders()
         {
-             repository.ProcessOrders(orders);
+            return _repo.GetAllOrders();
         }
-
-
-
-
     }
 }

@@ -1,43 +1,44 @@
 ﻿using OrderProcessingMembersBL.Interfaces;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OrderProcessingMembersBL.Domein
 {
     public class Order
     {
-        public Order(int id, Lid lid, Event @event, int ticketAmount)
+        public int Id { get; set; }
+        public Lid Lid { get; set; }
+        public Event Event { get; set; }
+        public int TicketAmount { get; set; }
+
+       
+        public IPriceCalculator PriceCalculator { get; set; }
+        public IDeliveryMethod DeliveryMethod { get; set; }
+        public IExtraServices ExtraServices { get; set; }
+
+        public Order(int id, Lid lid, Event @event, int ticketAmount,
+                     IPriceCalculator priceCalculator,
+                     IDeliveryMethod deliveryMethod,
+                     IExtraServices extraServices)
         {
             Id = id;
             Lid = lid;
             Event = @event;
             TicketAmount = ticketAmount;
+
+            // Interfaces koppelen
+            PriceCalculator = priceCalculator;
+            DeliveryMethod = deliveryMethod;
+            ExtraServices = extraServices;
         }
 
-        public int Id { get; set; }
-        public Lid Lid { get; set; }
-        public Event Event { get; set; }
-
-        public int TicketAmount { get; set; }
-
-        public virtual string LeveringsType()
+        public double CalculateTotal()
         {
-            return "Standard Delivery";
-        }
-        public virtual double CalculateTotal()
-        {
-            double totaal = Event.Price;
-            return totaal;
-        }
+            // Basis berekening uitvoeren
+            double basePrice = Event.Price * TicketAmount;
 
-        public virtual List<string> GetServices()
-        {
-            var services = new List<string>();
+            double totalPrice = PriceCalculator.CalculateTotal(basePrice);
 
-            return services;
+            return totalPrice;
         }
     }
 }

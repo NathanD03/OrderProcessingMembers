@@ -2,4 +2,5 @@
   <Project Path="OrderProcessingMembersBL/OrderProcessingMembersBL.csproj" />
   <Project Path="OrderProcessingMembersDL/OrderProcessingMembersDL.csproj" />
   <Project Path="OrderProcessingMembersUI/OrderProcessingMembersUI.csproj" />
+  <Project Path="OrderProcessingUtil/OrderProcessingUtil.csproj" />
 </Solution>
