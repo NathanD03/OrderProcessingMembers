@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {
-      "OrderProcessingMembersBL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v9.0",
-        "compile": {
-          "bin/placeholder/OrderProcessingMembersBL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/OrderProcessingMembersBL.dll": {}
-        }
-      }
-    }
+    "net9.0-windows7.0": {}
   },
-  "libraries": {
-    "OrderProcessingMembersBL/1.0.0": {
-      "type": "project",
-      "path": "../OrderProcessingMembersBL/OrderProcessingMembersBL.csproj",
-      "msbuildProject": "../OrderProcessingMembersBL/OrderProcessingMembersBL.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net9.0": [
-      "OrderProcessingMembersBL >= 1.0.0"
-    ]
+    "net9.0-windows7.0": []
   },
   "packageFolders": {
     "C:\\Users\\paeli\\.nuget\\packages\\": {},
@@ -56,13 +37,10 @@
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net9.0": {
-          "targetAlias": "net9.0",
-          "projectReferences": {
-            "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj": {
-              "projectPath": "C:\\Users\\natha\\Documents\\School\\Programmeren Gevorderd\\OrderProcessingMembers\\SolutionOrderProcessingMembers\\OrderProcessingMembersBL\\OrderProcessingMembersBL.csproj"
-            }
-          }
+        "net9.0-windows7.0": {
+          "framework": "net9.0-windows7.0",
+          "targetAlias": "net9.0-windows",
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -78,8 +56,9 @@
       "SdkAnalysisLevel": "10.0.200"
     },
     "frameworks": {
-      "net9.0": {
-        "targetAlias": "net9.0",
+      "net9.0-windows7.0": {
+        "framework": "net9.0-windows7.0",
+        "targetAlias": "net9.0-windows",
         "imports": [
           "net461",
           "net462",
